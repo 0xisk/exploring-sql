@@ -19,4 +19,16 @@ CREATE ROLE
 */
 
 SET ROLE iskander;
+
+---------------------------------------------
+-- 3. Change use password
+ALTER USER use_name WITH PASSWORD 'password';
+
+---------------------------------------------
+--4. Create a db
+CREATE DATABASE test;
+
+-- 5. Drop a db
+DROP DATABASE dib;
+
 ---------------------------------------------
