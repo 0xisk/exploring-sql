@@ -32,11 +32,4 @@ CREATE DATABASE test;
 DROP DATABASE dib;
 
 ---------------------------------------------
--- 6. Insert multiple rows
-INSERT INTO table_name
-  (col_1, col_2)
-VALUES
-  ('val_1', '2'),
-  ('val_2', '2'),
-  ('val_3', '2'),
-  ...
+-- 6. 
